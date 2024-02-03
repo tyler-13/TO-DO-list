@@ -5,8 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO-DO List</title>
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="header">TO-DO List</div>
+    <div class="content">
+        <div class="add-task-form-container">
+            <h2>Add New Task</h2>
+            <form action="" class="add-task-form">
+                <input type="text" id="title" name="title" placeholder="Title">
+                <textarea name="discription" id="discription" cols="30" rows="10" placeholder="Discription"></textarea>
+                <div class="bottom">
+                    <div class="date-container">
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="priority-container">
+                        <select name="priority" id="priority">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">ADD</button>
+            </form>
+        </div>
+        <div class="task-container">
+            <div class="task" priority="1">
+                <p class="task-title">Example Task Title</p>
+                <p class="task-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas ipsum reiciendis fugit voluptatum ad dolorem hic nobis sint? Reiciendis maiores voluptas provident eius hic doloribus porro, explicabo id voluptatem!</p>
+                <div class="date-button-container">
+                    <p class="task-date">10/23/2004</p>
+                    <button class="mark-complete">Mark Done</button>
+                </div>
+            </div>
+            <div class="task" priority="1">
+                <p class="task-title">Example Task Title</p>
+                <p class="task-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas ipsum reiciendis fugit voluptatum ad dolorem hic nobis sint? Reiciendis maiores voluptas provident eius hic doloribus porro, explicabo id voluptatem!</p>
+                <div class="date-button-container">
+                    <p class="task-date">10/23/2004</p>
+                    <button class="mark-complete">Mark Done</button>
+                </div>
+            </div>
+            <div class="task" priority="1">
+                <p class="task-title">Example Task Title</p>
+                <p class="task-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas ipsum reiciendis fugit voluptatum ad dolorem hic nobis sint? Reiciendis maiores voluptas provident eius hic doloribus porro, explicabo id voluptatem!</p>
+                <div class="date-button-container">
+                    <p class="task-date">10/23/2004</p>
+                    <button class="mark-complete">Mark Done</button>
+                </div>
+            </div>
+            <div class="task" priority="1">
+                <p class="task-title">Example Task Title</p>
+                <p class="task-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas ipsum reiciendis fugit voluptatum ad dolorem hic nobis sint? Reiciendis maiores voluptas provident eius hic doloribus porro, explicabo id voluptatem!</p>
+                <div class="date-button-container">
+                    <p class="task-date">10/23/2004</p>
+                    <button class="mark-complete">Mark Done</button>
+                </div>
+            </div>
+            <div class="task" priority="1">
+                <p class="task-title">Example Task Title</p>
+                <p class="task-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptas ipsum reiciendis fugit voluptatum ad dolorem hic nobis sint? Reiciendis maiores voluptas provident eius hic doloribus porro, explicabo id voluptatem!</p>
+                <div class="date-button-container">
+                    <p class="task-date">10/23/2004</p>
+                    <button class="mark-complete">Mark Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
